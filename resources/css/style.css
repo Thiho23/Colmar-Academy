@@ -1,0 +1,85 @@
+/* ---- HEADER FOR THE PAGE ---- */
+
+header{
+    background-color: white;
+    height: 64px;
+    color: black;
+    width: 100%;
+}
+
+#head-name{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+#head-name p{
+    display: flex;
+    align-items: center; 
+    height: 32px;
+}
+
+#academy-header{
+    color: gray;
+}
+
+#logo-photo{
+    height: 32px;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+header nav{
+   float: right;
+   align-items: center;
+   display: flex;
+   padding-right: 24px;
+}
+
+ul{
+    list-style-type: none;
+    align-content: space-between;
+}
+
+ul li{
+    display: inline;
+    flex-direction: row;
+    padding: 0 8px;
+}
+
+/* ---- FIRST BODY FOR THE PAGE ---- */
+
+#body-one{
+    background-color: #a8a29e;
+    display: flex;
+    align-items: center;
+}
+
+#banner-photo{
+    width: 60%;
+    margin: 32px 24px;
+    float: left;
+}
+
+#banner-info{
+    float: right;
+    padding: 0 24px;
+    display: flexbox;
+    align-items: center;
+}
+
+button{
+    background-color: #171717;
+    color: #e5e5e5;
+    padding: 8px 175px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #737373;
+    font-weight: bold;
+    opacity: 1;
+}
