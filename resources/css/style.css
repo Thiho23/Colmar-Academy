@@ -83,3 +83,78 @@ button:hover{
     font-weight: bold;
     opacity: 1;
 }
+
+/* ---- SECOND BODY FOR THE PAGE ---- */
+#body-two{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#campus-quote{
+    float: left;
+    width: 60%;
+    padding: 32px 24px;
+    display: inline;
+}
+
+#information-main-photo{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 100%;
+}
+
+#campus{
+    float: right;
+    display: inline-flex;
+    flex-direction: column;  
+    width: 40%;
+    padding: 32px 16px 32px 24px;
+}
+
+.campus-photos{
+    height: auto;
+    width: 35%;
+    float: left;
+    padding: 16px;
+}
+
+#quote-information{
+    font-size: 20px;
+}
+
+#campus-quote h2{
+    font-weight: bold;
+}
+
+#hiring{
+    font-size: 15px;
+}
+
+.guest-lecture {
+    background-color: #d4d4d4;
+}
+
+.read-more{
+    color: #0ea5e9;
+    padding-left: 8px;
+}
+
+.read-more:hover {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.campus-info h4 {
+    font-size: 20px;
+}
+
+.campus-info p {
+    padding: 8px 8px;
+}
+
+.campus-info {
+    border: 1px solid #d4d4d4;
+}
