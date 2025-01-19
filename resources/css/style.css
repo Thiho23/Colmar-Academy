@@ -158,3 +158,47 @@ button:hover{
 .campus-info {
     border: 1px solid #d4d4d4;
 }
+
+/* ---- THIRD BODY FOR THE PAGE ---- */
+
+#body-three{
+    background-color: gray;
+}
+
+#body-three h2{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 32px;
+}
+
+.courses{
+    background-color: #f3f4f6;
+    display: inline-flex;
+    flex-direction: column;
+    margin: auto;
+    align-content: center;
+    margin: 16px;
+    width: 30%;
+    height: 100%;
+}
+
+.course-photo{
+    height: auto;
+}
+
+.course-row {
+    padding: 32px 72px;
+}
+
+.course-name {
+    margin: 16px 16px;
+}
+
+.type {
+    margin: 8px 16px;
+}
+
+.course-info {
+    margin: 0px 16px;
+    margin-bottom: 24px;
+}
