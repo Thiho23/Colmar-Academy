@@ -162,7 +162,7 @@ button:hover{
 /* ---- THIRD BODY FOR THE PAGE ---- */
 
 #body-three{
-    background-color: gray;
+    background-color: #a8a29e;
 }
 
 #body-three h2{
@@ -201,4 +201,89 @@ button:hover{
 .course-info {
     margin: 0px 16px;
     margin-bottom: 24px;
+}
+
+/* ---- FOURTH BODY FOR THE PAGE ---- */
+
+#body-four {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#body-four h2 {
+    width: 100%;
+    display: block;
+    padding: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.thesis-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-information {
+    display: inline-flexbox;
+    width: 60%;
+    padding: 0 24px ;
+    float: left;
+    margin: auto;
+}
+
+.video-information video {
+    width: 100%;
+    margin: auto;
+}
+
+.video-information h3 {
+    padding: 8px;
+}
+
+.video-information p{
+    padding-bottom: 32px;
+}
+
+.thesis-content {
+    float: right;
+    display: inline-flex;
+    flex-direction: column;  
+    width: 40%;
+    padding: 16px;
+    margin: auto;
+}
+
+.thesis-photos {
+    height: auto;
+    width: 35%;
+    margin: 16px;
+    float: left;
+}
+
+.fisma {
+    background-color: #9ca3af;
+}
+
+footer {
+    width: 100%;
+    display: block;
+}
+
+#copyright {
+    padding: 16px 24px;
+    float: left;
+}
+
+#sub-footer{
+    display: inline-flex;
+    flex-direction: row;
+    float: right;
+    padding: 16px 24px;
+    justify-content: space-between;
+}
+
+#sub-footer p{
+    padding-left: 16px;
 }
