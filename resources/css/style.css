@@ -48,8 +48,13 @@ ul li{
     display: inline;
     flex-direction: row;
     padding: 0 8px;
+    cursor: pointer;
 }
 
+#header-nav ul li:hover{
+    font-weight: bold;
+    opacity: 1;
+}
 /* ---- FIRST BODY FOR THE PAGE ---- */
 
 #body-one{
